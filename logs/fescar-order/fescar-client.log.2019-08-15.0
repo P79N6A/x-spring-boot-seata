@@ -1,0 +1,1013 @@
+2019-08-15 15:25:32,729 INFO using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+
+2019-08-15 15:25:32,733 INFO 
+
+ :: Dubbo Spring Boot (v0.2.1.RELEASE) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.5) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+
+2019-08-15 15:25:32,736 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+
+2019-08-15 15:25:33,040 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-08-15 15:25:33,250 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5188dfb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:33,310 INFO  [Dubbo] Current Spring Boot Application is await...
+
+2019-08-15 15:25:33,483 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.name=shardingsphere-seata-nacos-dubbo-provider-order, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.protocol.name=dubbo, dubbo.protocol.port=-1, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.basePackages=com.company.spring.boot.shardingsphere.seata.modules.service}
+
+2019-08-15 15:25:33,499 INFO No active profile set, falling back to default profiles: default
+
+2019-08-15 15:25:33,984 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+
+2019-08-15 15:25:33,986 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+
+2019-08-15 15:25:33,986 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+
+2019-08-15 15:25:33,987 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+
+2019-08-15 15:25:33,987 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ProtocolConfig#0, class : com.alibaba.dubbo.config.ProtocolConfig] has been registered.
+
+2019-08-15 15:25:33,987 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] has been registered.
+
+2019-08-15 15:25:34,300 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,300 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,346 WARN  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,347 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,348 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,348 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,358 WARN  [DUBBO] The Duplicated BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean[ bean name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService] was be found , Did @DubboComponentScan scan to same package in many times?, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,359 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere.seata.modules.service], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:34,361 INFO Cannot enhance @Configuration bean definition 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+
+2019-08-15 15:25:34,463 INFO BeanFactory id=a8a8db2d-93d5-31b1-916e-bf0d035cc63d
+
+2019-08-15 15:25:34,485 INFO Bean 'seataConfig' of type [com.company.spring.boot.shardingsphere.seata.config.SeataConfig$$EnhancerBySpringCGLIB$$e3fc3a84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:39,544 ERROR config operation timeout,cost:5002 ms,op:GET,dataId:service.disableGlobalTransaction
+
+2019-08-15 15:25:39,661 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$356edcb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:39,706 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:39,711 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:39,713 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:39,729 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5188dfb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:25:40,432 INFO Tomcat initialized with port(s): 8095 (http)
+
+2019-08-15 15:25:40,446 INFO Initializing ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 15:25:40,457 INFO Starting service [Tomcat]
+
+2019-08-15 15:25:40,457 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-08-15 15:25:40,464 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Program Files (x86)\VanDyke Software\Clients\;C:\Python27\Lib\site-packages\PyQt4;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_111\bin;C:\Python27;D:\Android\android-sdk\build-tools\22.0.1;H:\Program Files (x86)\ant\apache-ant-1.9.9\bin;H:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Users\hexin\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\bin;C:\Python27\Scripts;C:\Program Files\MongoDB\Server\3.4\bin;D:\Program Files (x86)\Beyond Compare 3;F:\Federation2.0\game\lua-5.3.5_Win32_bin;C:\Users\hexin\AppData\Roaming\npm;C:\Program Files (x86)\Egret\Egret Wing 3\bin;C:\Users\hexin\AppData\Local\GitHubDesktop\bin;.]
+
+2019-08-15 15:25:40,716 INFO Initializing Spring embedded WebApplicationContext
+
+2019-08-15 15:25:40,716 INFO Root WebApplicationContext: initialization completed in 7194 ms
+
+2019-08-15 15:25:41,528 INFO {dataSource-1} inited
+
+2019-08-15 15:25:41,555 INFO {dataSource-2} inited
+
+2019-08-15 15:25:41,635 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 15:25:41,652 INFO Async Commit Buffer Limit: 10000
+
+2019-08-15 15:25:41,656 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 15:25:41,658 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 15:25:41,659 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 15:25:41,680 INFO ShardingRuleConfiguration
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: ds$->{user_id % 2}
+    shardingColumn: user_id
+tables:
+  t_order:
+    actualDataNodes: ds$->{0..1}.t_order_$->{0..1}
+    keyGenerator:
+      column: order_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 2}
+        shardingColumn: order_id
+  t_order_item:
+    actualDataNodes: ds$->{0..1}.t_order_item_$->{0..1}
+    keyGenerator:
+      column: order_item_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order_item
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_item_$->{order_id % 2}
+        shardingColumn: order_id
+
+
+2019-08-15 15:25:41,681 INFO Properties
+{}
+
+
+2019-08-15 15:25:41,939 INFO The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+
+2019-08-15 15:25:41,946 INFO The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+
+2019-08-15 15:25:41,954 INFO The properties of bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+
+2019-08-15 15:25:42,121 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 15:25:42,121 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 15:25:42,126 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 15:25:42,126 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 15:25:42,503 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-08-15 15:25:43,049 INFO LiveReload server is running on port 35729
+
+2019-08-15 15:25:43,386 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,386 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,591 INFO  [DUBBO] The service ready on spring started. service: com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,650 WARN  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,697 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to local registry, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,697 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=5888&qos.enable=false&side=provider&timestamp=1565853943604, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,698 INFO  [DUBBO] Register dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=5888&qos.enable=false&side=provider&timestamp=1565853943604 to registry registry://127.0.0.1:8848/com.alibaba.dubbo.registry.RegistryService?application=shardingsphere-seata-nacos-dubbo-provider-order&dubbo=2.0.2&pid=5888&qos.enable=false&registry=nacos&timestamp=1565853943597, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,717 INFO  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring boot configuration., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,799 INFO  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.14.3:20880, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,828 INFO  [DUBBO] Register: dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=5888&side=provider&timestamp=1565853943604, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,910 INFO  [DUBBO] Subscribe: provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=5888&side=provider&timestamp=1565853943604, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,932 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=5888&side=provider&timestamp=1565853943604, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,935 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=5888&side=provider&timestamp=1565853943604, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:25:43,936 INFO Starting ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 15:25:43,939 INFO Using a shared selector for servlet write/read
+
+2019-08-15 15:25:43,975 INFO Tomcat started on port(s): 8095 (http) with context path ''
+
+2019-08-15 15:25:43,983 INFO nacos registry, shardingsphere-seata-nacos-dubbo-provider-order 192.168.14.3:8095 register finished
+
+2019-08-15 15:25:43,986 INFO Started XSpringBootShardingsphereSeataApplication in 11.984 seconds (JVM running for 13.413)
+
+2019-08-15 15:25:46,653 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 15:25:46,658 INFO will connect to 127.0.0.1:8091
+
+2019-08-15 15:25:46,659 INFO RM will register :jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 15:25:46,660 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC', applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 15:25:46,852 INFO register RM success. server version:0.5.1,channel:[id: 0xe877a1d4, L:/127.0.0.1:61064 - R:/127.0.0.1:8091]
+
+2019-08-15 15:25:46,852 INFO register success, cost 52 ms, version:0.5.1,role:TMROLE,channel:[id: 0x519a5219, L:/127.0.0.1:61063 - R:/127.0.0.1:8091]
+
+2019-08-15 15:25:46,852 INFO register success, cost 60 ms, version:0.5.1,role:RMROLE,channel:[id: 0xe877a1d4, L:/127.0.0.1:61064 - R:/127.0.0.1:8091]
+
+2019-08-15 15:27:50,156 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-08-15 15:42:44,052 INFO using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+
+2019-08-15 15:42:44,058 INFO 
+
+ :: Dubbo Spring Boot (v0.2.1.RELEASE) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.5) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+
+2019-08-15 15:42:44,062 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+
+2019-08-15 15:42:44,330 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-08-15 15:42:44,532 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1ef4bda6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:44,590 INFO  [Dubbo] Current Spring Boot Application is await...
+
+2019-08-15 15:42:44,758 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.name=shardingsphere-seata-nacos-dubbo-provider-order, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.protocol.name=dubbo, dubbo.protocol.port=-1, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.basePackages=com.company.spring.boot.shardingsphere.seata.modules.service}
+
+2019-08-15 15:42:44,775 INFO No active profile set, falling back to default profiles: default
+
+2019-08-15 15:42:45,255 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+
+2019-08-15 15:42:45,257 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+
+2019-08-15 15:42:45,257 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+
+2019-08-15 15:42:45,257 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+
+2019-08-15 15:42:45,257 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ProtocolConfig#0, class : com.alibaba.dubbo.config.ProtocolConfig] has been registered.
+
+2019-08-15 15:42:45,257 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] has been registered.
+
+2019-08-15 15:42:45,559 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,559 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,606 WARN  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,606 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,607 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,607 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,616 WARN  [DUBBO] The Duplicated BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean[ bean name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService] was be found , Did @DubboComponentScan scan to same package in many times?, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,616 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere.seata.modules.service], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:45,618 INFO Cannot enhance @Configuration bean definition 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+
+2019-08-15 15:42:45,735 INFO BeanFactory id=a8a8db2d-93d5-31b1-916e-bf0d035cc63d
+
+2019-08-15 15:42:45,754 INFO Bean 'seataConfig' of type [com.company.spring.boot.shardingsphere.seata.config.SeataConfig$$EnhancerBySpringCGLIB$$b1681876] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:50,804 ERROR config operation timeout,cost:5001 ms,op:GET,dataId:service.disableGlobalTransaction
+
+2019-08-15 15:42:50,909 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2dabaa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:50,953 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:50,957 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:50,958 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:50,974 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1ef4bda6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 15:42:51,703 INFO Tomcat initialized with port(s): 8095 (http)
+
+2019-08-15 15:42:51,717 INFO Initializing ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 15:42:51,728 INFO Starting service [Tomcat]
+
+2019-08-15 15:42:51,728 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-08-15 15:42:51,735 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Program Files (x86)\VanDyke Software\Clients\;C:\Python27\Lib\site-packages\PyQt4;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_111\bin;C:\Python27;D:\Android\android-sdk\build-tools\22.0.1;H:\Program Files (x86)\ant\apache-ant-1.9.9\bin;H:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Users\hexin\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\bin;C:\Python27\Scripts;C:\Program Files\MongoDB\Server\3.4\bin;D:\Program Files (x86)\Beyond Compare 3;F:\Federation2.0\game\lua-5.3.5_Win32_bin;C:\Users\hexin\AppData\Roaming\npm;C:\Program Files (x86)\Egret\Egret Wing 3\bin;C:\Users\hexin\AppData\Local\GitHubDesktop\bin;.]
+
+2019-08-15 15:42:51,997 INFO Initializing Spring embedded WebApplicationContext
+
+2019-08-15 15:42:51,997 INFO Root WebApplicationContext: initialization completed in 7200 ms
+
+2019-08-15 15:42:52,768 INFO {dataSource-1} inited
+
+2019-08-15 15:42:52,785 INFO {dataSource-2} inited
+
+2019-08-15 15:42:52,861 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 15:42:52,877 INFO Async Commit Buffer Limit: 10000
+
+2019-08-15 15:42:52,882 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 15:42:52,884 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 15:42:52,884 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 15:42:52,906 INFO ShardingRuleConfiguration
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: ds$->{user_id % 2}
+    shardingColumn: user_id
+tables:
+  t_order:
+    actualDataNodes: ds$->{0..1}.t_order_$->{0..1}
+    keyGenerator:
+      column: order_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 2}
+        shardingColumn: order_id
+  t_order_item:
+    actualDataNodes: ds$->{0..1}.t_order_item_$->{0..1}
+    keyGenerator:
+      column: order_item_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order_item
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_item_$->{order_id % 2}
+        shardingColumn: order_id
+
+
+2019-08-15 15:42:52,907 INFO Properties
+{}
+
+
+2019-08-15 15:42:53,182 INFO The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+
+2019-08-15 15:42:53,189 INFO The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+
+2019-08-15 15:42:53,196 INFO The properties of bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+
+2019-08-15 15:42:53,365 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 15:42:53,366 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 15:42:53,371 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 15:42:53,371 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 15:42:53,770 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-08-15 15:42:54,303 INFO LiveReload server is running on port 35729
+
+2019-08-15 15:42:54,615 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,615 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,798 INFO  [DUBBO] The service ready on spring started. service: com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,856 WARN  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,925 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to local registry, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,926 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=8748&qos.enable=false&side=provider&timestamp=1565854974810, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,926 INFO  [DUBBO] Register dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=8748&qos.enable=false&side=provider&timestamp=1565854974810 to registry registry://127.0.0.1:8848/com.alibaba.dubbo.registry.RegistryService?application=shardingsphere-seata-nacos-dubbo-provider-order&dubbo=2.0.2&pid=8748&qos.enable=false&registry=nacos&timestamp=1565854974803, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:54,947 INFO  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring boot configuration., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:55,027 INFO  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.14.3:20880, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:55,053 INFO  [DUBBO] Register: dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=8748&side=provider&timestamp=1565854974810, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:55,138 INFO  [DUBBO] Subscribe: provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=8748&side=provider&timestamp=1565854974810, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:55,161 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=8748&side=provider&timestamp=1565854974810, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:55,164 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=8748&side=provider&timestamp=1565854974810, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 15:42:55,165 INFO Starting ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 15:42:55,167 INFO Using a shared selector for servlet write/read
+
+2019-08-15 15:42:55,186 INFO Tomcat started on port(s): 8095 (http) with context path ''
+
+2019-08-15 15:42:55,192 INFO nacos registry, shardingsphere-seata-nacos-dubbo-provider-order 192.168.14.3:8095 register finished
+
+2019-08-15 15:42:55,195 INFO Started XSpringBootShardingsphereSeataApplication in 12.102 seconds (JVM running for 13.548)
+
+2019-08-15 15:42:57,878 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 15:42:57,883 INFO will connect to 127.0.0.1:8091
+
+2019-08-15 15:42:57,884 INFO RM will register :jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 15:42:57,884 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC', applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 15:42:58,071 INFO register RM success. server version:0.5.1,channel:[id: 0x05a1e852, L:/127.0.0.1:62013 - R:/127.0.0.1:8091]
+
+2019-08-15 15:42:58,071 INFO register success, cost 50 ms, version:0.5.1,role:TMROLE,channel:[id: 0x81f60d89, L:/127.0.0.1:62012 - R:/127.0.0.1:8091]
+
+2019-08-15 15:42:58,071 INFO register success, cost 59 ms, version:0.5.1,role:RMROLE,channel:[id: 0x05a1e852, L:/127.0.0.1:62013 - R:/127.0.0.1:8091]
+
+2019-08-15 15:45:30,998 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-08-15 16:19:56,732 INFO using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+
+2019-08-15 16:19:56,742 INFO 
+
+ :: Dubbo Spring Boot (v0.2.1.RELEASE) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.5) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+
+2019-08-15 16:19:56,745 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+
+2019-08-15 16:19:57,130 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-08-15 16:19:57,408 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e483a23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:19:57,498 INFO  [Dubbo] Current Spring Boot Application is await...
+
+2019-08-15 16:19:57,783 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.name=shardingsphere-seata-nacos-dubbo-provider-order, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.protocol.name=dubbo, dubbo.protocol.port=-1, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.basePackages=com.company.spring.boot.shardingsphere.seata.modules.service}
+
+2019-08-15 16:19:57,799 INFO No active profile set, falling back to default profiles: default
+
+2019-08-15 16:19:58,300 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+
+2019-08-15 16:19:58,301 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+
+2019-08-15 16:19:58,301 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+
+2019-08-15 16:19:58,302 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+
+2019-08-15 16:19:58,302 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ProtocolConfig#0, class : com.alibaba.dubbo.config.ProtocolConfig] has been registered.
+
+2019-08-15 16:19:58,302 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] has been registered.
+
+2019-08-15 16:19:58,619 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,620 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,667 WARN  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,668 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,669 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,669 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,678 WARN  [DUBBO] The Duplicated BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean[ bean name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService] was be found , Did @DubboComponentScan scan to same package in many times?, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,679 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere.seata.modules.service], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:19:58,680 INFO Cannot enhance @Configuration bean definition 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+
+2019-08-15 16:19:58,775 INFO BeanFactory id=a8a8db2d-93d5-31b1-916e-bf0d035cc63d
+
+2019-08-15 16:19:58,794 INFO Bean 'seataConfig' of type [com.company.spring.boot.shardingsphere.seata.config.SeataConfig$$EnhancerBySpringCGLIB$$20bb94f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:20:03,843 ERROR config operation timeout,cost:5001 ms,op:GET,dataId:service.disableGlobalTransaction
+
+2019-08-15 16:20:03,945 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$722e3726] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:20:03,987 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:20:03,991 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:20:03,992 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:20:04,007 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e483a23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:20:04,669 INFO Tomcat initialized with port(s): 8095 (http)
+
+2019-08-15 16:20:04,682 INFO Initializing ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 16:20:04,693 INFO Starting service [Tomcat]
+
+2019-08-15 16:20:04,693 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-08-15 16:20:04,699 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Program Files (x86)\VanDyke Software\Clients\;C:\Python27\Lib\site-packages\PyQt4;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_111\bin;C:\Python27;D:\Android\android-sdk\build-tools\22.0.1;H:\Program Files (x86)\ant\apache-ant-1.9.9\bin;H:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Users\hexin\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\bin;C:\Python27\Scripts;C:\Program Files\MongoDB\Server\3.4\bin;D:\Program Files (x86)\Beyond Compare 3;F:\Federation2.0\game\lua-5.3.5_Win32_bin;C:\Users\hexin\AppData\Roaming\npm;C:\Program Files (x86)\Egret\Egret Wing 3\bin;C:\Users\hexin\AppData\Local\GitHubDesktop\bin;.]
+
+2019-08-15 16:20:04,950 INFO Initializing Spring embedded WebApplicationContext
+
+2019-08-15 16:20:04,950 INFO Root WebApplicationContext: initialization completed in 7127 ms
+
+2019-08-15 16:20:05,713 INFO {dataSource-1} inited
+
+2019-08-15 16:20:05,734 INFO {dataSource-2} inited
+
+2019-08-15 16:20:05,810 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 16:20:05,825 INFO Async Commit Buffer Limit: 10000
+
+2019-08-15 16:20:05,830 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 16:20:05,832 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:20:05,832 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:20:05,852 INFO ShardingRuleConfiguration
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: ds$->{user_id % 2}
+    shardingColumn: user_id
+tables:
+  t_order:
+    actualDataNodes: ds$->{0..1}.t_order_$->{0..1}
+    keyGenerator:
+      column: order_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 2}
+        shardingColumn: order_id
+  t_order_item:
+    actualDataNodes: ds$->{0..1}.t_order_item_$->{0..1}
+    keyGenerator:
+      column: order_item_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order_item
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_item_$->{order_id % 2}
+        shardingColumn: order_id
+
+
+2019-08-15 16:20:05,853 INFO Properties
+{}
+
+
+2019-08-15 16:20:06,106 INFO The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+
+2019-08-15 16:20:06,113 INFO The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+
+2019-08-15 16:20:06,121 INFO The properties of bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+
+2019-08-15 16:20:06,303 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 16:20:06,303 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 16:20:06,308 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 16:20:06,308 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 16:20:06,656 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-08-15 16:20:07,187 INFO LiveReload server is running on port 35729
+
+2019-08-15 16:20:07,511 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,511 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,692 INFO  [DUBBO] The service ready on spring started. service: com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,749 WARN  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,796 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to local registry, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,796 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&qos.enable=false&side=provider&timestamp=1565857207704, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,796 INFO  [DUBBO] Register dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&qos.enable=false&side=provider&timestamp=1565857207704 to registry registry://127.0.0.1:8848/com.alibaba.dubbo.registry.RegistryService?application=shardingsphere-seata-nacos-dubbo-provider-order&dubbo=2.0.2&pid=10580&qos.enable=false&registry=nacos&timestamp=1565857207697, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,817 INFO  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring boot configuration., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,899 INFO  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.14.3:20880, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:07,924 INFO  [DUBBO] Register: dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&side=provider&timestamp=1565857207704, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:08,006 INFO  [DUBBO] Subscribe: provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&side=provider&timestamp=1565857207704, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:08,028 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&side=provider&timestamp=1565857207704, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:08,030 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&side=provider&timestamp=1565857207704, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:20:08,032 INFO Starting ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 16:20:08,035 INFO Using a shared selector for servlet write/read
+
+2019-08-15 16:20:08,056 INFO Tomcat started on port(s): 8095 (http) with context path ''
+
+2019-08-15 16:20:08,062 INFO nacos registry, shardingsphere-seata-nacos-dubbo-provider-order 192.168.14.3:8095 register finished
+
+2019-08-15 16:20:08,065 INFO Started XSpringBootShardingsphereSeataApplication in 11.966 seconds (JVM running for 13.387)
+
+2019-08-15 16:20:10,827 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 16:20:10,831 INFO will connect to 127.0.0.1:8091
+
+2019-08-15 16:20:10,832 INFO RM will register :jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:20:10,833 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC', applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 16:20:11,020 INFO register RM success. server version:0.5.1,channel:[id: 0xf761e23b, L:/127.0.0.1:64778 - R:/127.0.0.1:8091]
+
+2019-08-15 16:20:11,020 INFO register success, cost 50 ms, version:0.5.1,role:TMROLE,channel:[id: 0x339bc476, L:/127.0.0.1:64777 - R:/127.0.0.1:8091]
+
+2019-08-15 16:20:11,020 INFO register success, cost 59 ms, version:0.5.1,role:RMROLE,channel:[id: 0xf761e23b, L:/127.0.0.1:64778 - R:/127.0.0.1:8091]
+
+2019-08-15 16:21:43,892 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-08-15 16:21:44,804 WARN  [DUBBO] All clients has discontected from /192.168.14.3:20880. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:21:44,805 INFO  [DUBBO] disconnected from /192.168.14.3:64867,url:dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&channel.readonly.sent=true&codec=dubbo&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10580&qos.enable=false&side=provider&timestamp=1565857207704, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:08,263 INFO using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+
+2019-08-15 16:24:08,276 INFO 
+
+ :: Dubbo Spring Boot (v0.2.1.RELEASE) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.5) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+
+2019-08-15 16:24:08,279 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+
+2019-08-15 16:24:08,543 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-08-15 16:24:08,744 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f353ef04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:08,801 INFO  [Dubbo] Current Spring Boot Application is await...
+
+2019-08-15 16:24:08,975 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.name=shardingsphere-seata-nacos-dubbo-provider-order, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.protocol.name=dubbo, dubbo.protocol.port=-1, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.basePackages=com.company.spring.boot.shardingsphere.seata.modules.service}
+
+2019-08-15 16:24:08,992 INFO No active profile set, falling back to default profiles: default
+
+2019-08-15 16:24:09,472 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+
+2019-08-15 16:24:09,474 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+
+2019-08-15 16:24:09,474 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+
+2019-08-15 16:24:09,474 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+
+2019-08-15 16:24:09,474 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ProtocolConfig#0, class : com.alibaba.dubbo.config.ProtocolConfig] has been registered.
+
+2019-08-15 16:24:09,474 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] has been registered.
+
+2019-08-15 16:24:09,769 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,770 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,815 WARN  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,815 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,817 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,817 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,825 WARN  [DUBBO] The Duplicated BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean[ bean name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService] was be found , Did @DubboComponentScan scan to same package in many times?, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,826 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere.seata.modules.service], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:09,827 INFO Cannot enhance @Configuration bean definition 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+
+2019-08-15 16:24:09,912 INFO BeanFactory id=a8a8db2d-93d5-31b1-916e-bf0d035cc63d
+
+2019-08-15 16:24:09,931 INFO Bean 'seataConfig' of type [com.company.spring.boot.shardingsphere.seata.config.SeataConfig$$EnhancerBySpringCGLIB$$85c749d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:14,979 ERROR config operation timeout,cost:5000 ms,op:GET,dataId:service.disableGlobalTransaction
+
+2019-08-15 16:24:15,082 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d739ec07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:15,125 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:15,128 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:15,130 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:15,146 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f353ef04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:24:15,815 INFO Tomcat initialized with port(s): 8095 (http)
+
+2019-08-15 16:24:15,828 INFO Initializing ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 16:24:15,838 INFO Starting service [Tomcat]
+
+2019-08-15 16:24:15,839 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-08-15 16:24:15,845 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Program Files (x86)\VanDyke Software\Clients\;C:\Python27\Lib\site-packages\PyQt4;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_111\bin;C:\Python27;D:\Android\android-sdk\build-tools\22.0.1;H:\Program Files (x86)\ant\apache-ant-1.9.9\bin;H:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Users\hexin\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\bin;C:\Python27\Scripts;C:\Program Files\MongoDB\Server\3.4\bin;D:\Program Files (x86)\Beyond Compare 3;F:\Federation2.0\game\lua-5.3.5_Win32_bin;C:\Users\hexin\AppData\Roaming\npm;C:\Program Files (x86)\Egret\Egret Wing 3\bin;C:\Users\hexin\AppData\Local\GitHubDesktop\bin;.]
+
+2019-08-15 16:24:16,096 INFO Initializing Spring embedded WebApplicationContext
+
+2019-08-15 16:24:16,096 INFO Root WebApplicationContext: initialization completed in 7080 ms
+
+2019-08-15 16:24:16,845 INFO {dataSource-1} inited
+
+2019-08-15 16:24:16,860 INFO {dataSource-2} inited
+
+2019-08-15 16:24:16,939 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 16:24:16,955 INFO Async Commit Buffer Limit: 10000
+
+2019-08-15 16:24:16,960 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 16:24:16,962 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:24:16,962 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:24:16,983 INFO ShardingRuleConfiguration
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: ds$->{user_id % 2}
+    shardingColumn: user_id
+tables:
+  t_order:
+    actualDataNodes: ds$->{0..1}.t_order_$->{0..1}
+    keyGenerator:
+      column: order_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 2}
+        shardingColumn: order_id
+  t_order_item:
+    actualDataNodes: ds$->{0..1}.t_order_item_$->{0..1}
+    keyGenerator:
+      column: order_item_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order_item
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_item_$->{order_id % 2}
+        shardingColumn: order_id
+
+
+2019-08-15 16:24:16,984 INFO Properties
+{}
+
+
+2019-08-15 16:24:17,235 INFO The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+
+2019-08-15 16:24:17,242 INFO The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+
+2019-08-15 16:24:17,251 INFO The properties of bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+
+2019-08-15 16:24:17,426 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 16:24:17,426 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 16:24:17,431 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 16:24:17,431 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 16:24:17,809 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-08-15 16:24:18,330 INFO LiveReload server is running on port 35729
+
+2019-08-15 16:24:18,644 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,644 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,830 INFO  [DUBBO] The service ready on spring started. service: com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,888 WARN  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,956 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to local registry, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,957 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&qos.enable=false&side=provider&timestamp=1565857458842, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,957 INFO  [DUBBO] Register dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&qos.enable=false&side=provider&timestamp=1565857458842 to registry registry://127.0.0.1:8848/com.alibaba.dubbo.registry.RegistryService?application=shardingsphere-seata-nacos-dubbo-provider-order&dubbo=2.0.2&pid=10152&qos.enable=false&registry=nacos&timestamp=1565857458835, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:18,977 INFO  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring boot configuration., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:19,060 INFO  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.14.3:20880, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:19,087 INFO  [DUBBO] Register: dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&side=provider&timestamp=1565857458842, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:19,170 INFO  [DUBBO] Subscribe: provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&side=provider&timestamp=1565857458842, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:19,190 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&side=provider&timestamp=1565857458842, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:19,193 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&side=provider&timestamp=1565857458842, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:24:19,195 INFO Starting ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 16:24:19,197 INFO Using a shared selector for servlet write/read
+
+2019-08-15 16:24:19,216 INFO Tomcat started on port(s): 8095 (http) with context path ''
+
+2019-08-15 16:24:19,222 INFO nacos registry, shardingsphere-seata-nacos-dubbo-provider-order 192.168.14.3:8095 register finished
+
+2019-08-15 16:24:19,225 INFO Started XSpringBootShardingsphereSeataApplication in 11.516 seconds (JVM running for 12.987)
+
+2019-08-15 16:24:21,957 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 16:24:21,963 INFO will connect to 127.0.0.1:8091
+
+2019-08-15 16:24:21,963 INFO RM will register :jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:24:21,964 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC', applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 16:24:22,146 INFO register success, cost 49 ms, version:0.5.1,role:TMROLE,channel:[id: 0xbf9cefb7, L:/127.0.0.1:65015 - R:/127.0.0.1:8091]
+
+2019-08-15 16:24:22,146 INFO register RM success. server version:0.5.1,channel:[id: 0x85cdd97d, L:/127.0.0.1:65016 - R:/127.0.0.1:8091]
+
+2019-08-15 16:24:22,147 INFO register success, cost 59 ms, version:0.5.1,role:RMROLE,channel:[id: 0x85cdd97d, L:/127.0.0.1:65016 - R:/127.0.0.1:8091]
+
+2019-08-15 16:26:24,498 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
+2019-08-15 16:26:25,166 WARN  [DUBBO] All clients has discontected from /192.168.14.3:20880. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:26:25,167 INFO  [DUBBO] disconnected from /192.168.14.3:65137,url:dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&channel.readonly.sent=true&codec=dubbo&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,insertOrUpdateAllColumnBatch,deleteBatchIds,insertOrUpdate,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=10152&qos.enable=false&side=provider&timestamp=1565857458842, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:28,378 INFO using logger: com.alibaba.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+
+2019-08-15 16:35:28,384 INFO 
+
+ :: Dubbo Spring Boot (v0.2.1.RELEASE) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.5) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+
+2019-08-15 16:35:28,397 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+
+2019-08-15 16:35:28,811 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-08-15 16:35:29,020 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d2fe0172] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:29,082 INFO  [Dubbo] Current Spring Boot Application is await...
+
+2019-08-15 16:35:29,262 INFO Dubbo Config was overridden by externalized configuration {dubbo.application.name=shardingsphere-seata-nacos-dubbo-provider-order, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.protocol.name=dubbo, dubbo.protocol.port=-1, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.basePackages=com.company.spring.boot.shardingsphere.seata.modules.service}
+
+2019-08-15 16:35:29,278 INFO No active profile set, falling back to default profiles: default
+
+2019-08-15 16:35:29,776 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+
+2019-08-15 16:35:29,778 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+
+2019-08-15 16:35:29,778 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+
+2019-08-15 16:35:29,778 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+
+2019-08-15 16:35:29,778 INFO The dubbo config bean definition [name : com.alibaba.dubbo.config.ProtocolConfig#0, class : com.alibaba.dubbo.config.ProtocolConfig] has been registered.
+
+2019-08-15 16:35:29,779 INFO The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] has been registered.
+
+2019-08-15 16:35:30,103 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,104 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,155 WARN  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,156 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,157 INFO  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,158 INFO  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,167 WARN  [DUBBO] The Duplicated BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean[ bean name : ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService] was be found , Did @DubboComponentScan scan to same package in many times?, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,168 INFO  [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'orderServiceImpl': Generic bean: class [com.company.spring.boot.shardingsphere.seata.modules.service.impl.OrderServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\Federation2.0\x-spring-boot\x-micro-service\x-spring-boot-nacos\shardingsphere-seata-nacos-dubbo-provider-order\target\classes\com\company\spring\boot\shardingsphere\seata\modules\service\impl\OrderServiceImpl.class]] } were scanned under package[com.company.spring.boot.shardingsphere.seata.modules.service], dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:30,169 INFO Cannot enhance @Configuration bean definition 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+
+2019-08-15 16:35:30,272 INFO BeanFactory id=a8a8db2d-93d5-31b1-916e-bf0d035cc63d
+
+2019-08-15 16:35:30,296 INFO Bean 'seataConfig' of type [com.company.spring.boot.shardingsphere.seata.config.SeataConfig$$EnhancerBySpringCGLIB$$65715c42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:35,347 ERROR config operation timeout,cost:5001 ms,op:GET,dataId:service.disableGlobalTransaction
+
+2019-08-15 16:35:35,466 INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6e3fe75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:35,512 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:35,516 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:35,518 INFO Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:35,534 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d2fe0172] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-08-15 16:35:36,196 INFO Tomcat initialized with port(s): 8095 (http)
+
+2019-08-15 16:35:36,209 INFO Initializing ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 16:35:36,220 INFO Starting service [Tomcat]
+
+2019-08-15 16:35:36,220 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-08-15 16:35:36,226 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Program Files (x86)\VanDyke Software\Clients\;C:\Python27\Lib\site-packages\PyQt4;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_111\bin;C:\Python27;D:\Android\android-sdk\build-tools\22.0.1;H:\Program Files (x86)\ant\apache-ant-1.9.9\bin;H:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Users\hexin\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\bin;C:\Python27\Scripts;C:\Program Files\MongoDB\Server\3.4\bin;D:\Program Files (x86)\Beyond Compare 3;F:\Federation2.0\game\lua-5.3.5_Win32_bin;C:\Users\hexin\AppData\Roaming\npm;C:\Program Files (x86)\Egret\Egret Wing 3\bin;C:\Users\hexin\AppData\Local\GitHubDesktop\bin;.]
+
+2019-08-15 16:35:36,478 INFO Initializing Spring embedded WebApplicationContext
+
+2019-08-15 16:35:36,478 INFO Root WebApplicationContext: initialization completed in 7178 ms
+
+2019-08-15 16:35:37,236 INFO {dataSource-1} inited
+
+2019-08-15 16:35:37,268 INFO {dataSource-2} inited
+
+2019-08-15 16:35:37,348 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 16:35:37,365 INFO Async Commit Buffer Limit: 10000
+
+2019-08-15 16:35:37,370 INFO AbstractRpcRemotingClient has started
+
+2019-08-15 16:35:37,372 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:35:37,373 INFO register to RM resourceId:jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:35:37,394 INFO ShardingRuleConfiguration
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: ds$->{user_id % 2}
+    shardingColumn: user_id
+tables:
+  t_order:
+    actualDataNodes: ds$->{0..1}.t_order_$->{0..1}
+    keyGenerator:
+      column: order_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 2}
+        shardingColumn: order_id
+  t_order_item:
+    actualDataNodes: ds$->{0..1}.t_order_item_$->{0..1}
+    keyGenerator:
+      column: order_item_id
+      props:
+        worker.id: '123'
+      type: SNOWFLAKE
+    logicTable: t_order_item
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_item_$->{order_id % 2}
+        shardingColumn: order_id
+
+
+2019-08-15 16:35:37,395 INFO Properties
+{}
+
+
+2019-08-15 16:35:37,659 INFO The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+
+2019-08-15 16:35:37,667 INFO The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+
+2019-08-15 16:35:37,675 INFO The properties of bean [name : com.alibaba.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+
+2019-08-15 16:35:37,847 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 16:35:37,847 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 16:35:37,852 WARN No URLs will be polled as dynamic configuration sources.
+
+2019-08-15 16:35:37,852 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2019-08-15 16:35:38,253 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-08-15 16:35:38,801 INFO LiveReload server is running on port 35729
+
+2019-08-15 16:35:39,110 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,110 WARN  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,293 INFO  [DUBBO] The service ready on spring started. service: com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,354 WARN  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,403 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to local registry, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,403 INFO  [DUBBO] Export dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService to url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=6564&qos.enable=false&side=provider&timestamp=1565858139305, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,403 INFO  [DUBBO] Register dubbo service com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService url dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&bind.ip=192.168.14.3&bind.port=20880&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=6564&qos.enable=false&side=provider&timestamp=1565858139305 to registry registry://127.0.0.1:8848/com.alibaba.dubbo.registry.RegistryService?application=shardingsphere-seata-nacos-dubbo-provider-order&dubbo=2.0.2&pid=6564&qos.enable=false&registry=nacos&timestamp=1565858139298, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,446 INFO  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring boot configuration., dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,529 INFO  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.14.3:20880, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,555 INFO  [DUBBO] Register: dubbo://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=6564&side=provider&timestamp=1565858139305, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,638 INFO  [DUBBO] Subscribe: provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=6564&side=provider&timestamp=1565858139305, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,660 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=6564&side=provider&timestamp=1565858139305, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,662 WARN  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.14.3:20880/com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService?anyhost=true&application=shardingsphere-seata-nacos-dubbo-provider-order&bean.name=ServiceBean:com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&category=configurators&check=false&dubbo=2.0.2&generic=false&interface=com.company.spring.boot.shardingsphere.seata.modules.service.IOrderService&methods=updateAllColumnBatchById,update,insert,delete,deleteBatchIds,insertOrUpdate,insertOrUpdateAllColumnBatch,deleteByMap,insertOrUpdateBatch,updateBatchById,selectMapsPage,insertAllColumn,selectPage,insertOrder,selectObj,insertOrUpdateAllColumn,selectByMap,selectById,updateById,selectObjs,selectBatchIds,selectOne,selectList,deleteById,selectMap,insertBatch,selectCount,updateAllColumnById,selectMaps,updateForSet&pid=6564&side=provider&timestamp=1565858139305, dubbo version: 2.6.5, current host: 192.168.14.3
+
+2019-08-15 16:35:39,665 INFO Starting ProtocolHandler ["http-nio-8095"]
+
+2019-08-15 16:35:39,667 INFO Using a shared selector for servlet write/read
+
+2019-08-15 16:35:39,687 INFO Tomcat started on port(s): 8095 (http) with context path ''
+
+2019-08-15 16:35:39,693 INFO nacos registry, shardingsphere-seata-nacos-dubbo-provider-order 192.168.14.3:8095 register finished
+
+2019-08-15 16:35:39,696 INFO Started XSpringBootShardingsphereSeataApplication in 11.931 seconds (JVM running for 13.457)
+
+2019-08-15 16:35:42,366 INFO NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 16:35:42,373 INFO will connect to 127.0.0.1:8091
+
+2019-08-15 16:35:42,373 INFO RM will register :jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+
+2019-08-15 16:35:42,374 INFO NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://localhost:3306/demo_ds_1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC,jdbc:mysql://localhost:3306/demo_ds_0?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC', applicationId='raw-jdbc-order', transactionServiceGroup='raw-jdbc-group'} >
+
+2019-08-15 16:35:42,566 INFO register RM success. server version:0.5.1,channel:[id: 0xdf6b69e1, L:/127.0.0.1:49405 - R:/127.0.0.1:8091]
+
+2019-08-15 16:35:42,566 INFO register success, cost 51 ms, version:0.5.1,role:TMROLE,channel:[id: 0xe80d81fa, L:/127.0.0.1:49404 - R:/127.0.0.1:8091]
+
+2019-08-15 16:35:42,567 INFO register success, cost 61 ms, version:0.5.1,role:RMROLE,channel:[id: 0xdf6b69e1, L:/127.0.0.1:49405 - R:/127.0.0.1:8091]
+
+2019-08-15 16:37:19,826 INFO load ContextCore[null] extension by class[io.seata.core.context.ThreadLocalContextCore]
+
